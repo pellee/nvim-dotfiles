@@ -4,9 +4,9 @@ return {
   dependencies = {
     "nvim-lua/plenary.nvim",
     "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
-    "MunifTanjim/nui.nvim"
+    "MunifTanjim/nui.nvim",
   },
-  config = function ()
-    vim.keymap.set("n", "<C-n>",":Neotree filesystem reveal toggle<CR>") -- puedo ejecutar comandos desde la consola. el <CR> es el enter.
-  end
+  config = function()
+    vim.keymap.set("n", "<C-n>", ":Neotree filesystem reveal toggle<CR>") -- puedo ejecutar comandos desde la consola. el <CR> es el enter.
+  end,
 }

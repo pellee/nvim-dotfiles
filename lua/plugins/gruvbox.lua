@@ -25,7 +25,7 @@ local opts = {
 return {
   "ellisonleao/gruvbox.nvim",
   priority = 1000,
-  config = function (opts)
+  config = function(opts)
     vim.cmd("colorscheme gruvbox")
-  end
+  end,
 }
