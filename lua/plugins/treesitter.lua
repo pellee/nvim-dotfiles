@@ -4,7 +4,7 @@ return {
 	config = function()
 		local configs = require("nvim-treesitter.configs")
 		configs.setup({
-			ensure_installed = { "lua", "markdown", "markdown_inline", "c", "cpp", "vimdoc", "json", "nix", "yaml" }, -- what parsers we want ensured are installed in tree-sitter.
+			ensure_installed = { "lua", "markdown", "markdown_inline", "c", "cpp", "vimdoc", "json", "nix", "yaml", "rust" }, -- what parsers we want ensured are installed in tree-sitter.
 			sync_install = false,
 			highlight = { enable = true }, -- highlitghts on the languages installed.
 			indent = { enable = true }, -- same as before. indent on the languages installed.
